@@ -1,0 +1,409 @@
+:host {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.md\:py-24 {
+  @media (min-width: 768px) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.lg\:py-32 {
+  @media (min-width: 1024px) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, var(--background), var(--muted));
+}
+
+.from-background {
+  --background: #ffffff;
+}
+
+.to-muted {
+  --muted: #f5f5f5;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.bg-grid-small-black {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg opacity='0.2'%3E%3Cpath d='M0 0h20v20H0z' fill='none'/%3E%3Cpath d='M1 1h18v18H1z' fill='none' stroke='%23000' stroke-width='.5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.md\:px-6 {
+  @media (min-width: 768px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-y-4 {
+  & > * + * {
+    margin-top: 1rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.sm\:text-5xl {
+  @media (min-width: 640px) {
+    font-size: 3rem;
+  }
+}
+
+.md\:text-6xl {
+  @media (min-width: 768px) {
+    font-size: 3.75rem;
+  }
+}
+
+.max-w-\[700px\] {
+  max-width: 700px;
+}
+
+.text-muted-foreground {
+  color: #666;
+}
+
+.md\:text-xl {
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.sm\:text-4xl {
+  @media (min-width: 640px) {
+    font-size: 2.25rem;
+  }
+}
+
+.md\:text-5xl {
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.md\:grid-cols-2 {
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.lg\:grid-cols-3 {
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.group:hover .group-hover\:shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.bg-primary-10 {
+  background-color: rgba(0, 0, 0, 0.1); // Cambiado a negro con opacidad
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.text-primary {
+  color: #000000; // Cambiado de azul (#1976d2) a negro
+}
+
+.text-5xl {
+  font-size: 3rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.mt-1 {
+  margin-top: 0.25rem;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.md\:text-lg {
+  @media (min-width: 768px) {
+    font-size: 1.125rem;
+  }
+}
+
+.bg-muted {
+  background-color: #f5f5f5;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.border {
+  border: 1px solid #e0e0e0;
+}
+
+.bg-card {
+  background-color: #ffffff;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.w-16 {
+  width: 4rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
+}
+
+.bg-primary-20 {
+  background-color: rgba(0, 0, 0, 0.2); // Cambiado a negro con opacidad
+}
+
+.h-8 {
+  height: 2rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.items-start {
+  align-items: flex-start;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.mt-0\.5 {
+  margin-top: 0.125rem;
+}
+
+.pt-4 {
+  padding-top: 1rem;
+}
+
+.lg\:grid-cols-2 {
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.h-full {
+  height: 100%;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+// Ajuste para las tarjetas: fondo blanco
+mat-card {
+  background-color: #ffffff !important;
+  color: #000000;
+}
+
+// Ajuste para la sección CTA: fondo negro
+.bg-primary {
+  background-color: #000000 !important;
+  color: #ffffff;
+}
+
+.text-primary-foreground {
+  color: #ffffff;
+}
+
+// Ajuste para las barras de progreso: color negro
+mat-progress-bar {
+  background-color: #e0e0e0; // Fondo de la barra
+  .mat-progress-bar-buffer {
+    background: #b0b0b0; // Buffer
+  }
+  .mat-progress-bar-fill::after {
+    background-color: #000000; // Barra de progreso en negro
+  }
+}
+
+// Ajuste para las pestañas: texto negro
+mat-tab-label {
+  color: #000000 !important;
+  &.mat-tab-label-active {
+    color: #000000 !important; // Mantener negro cuando está activa
+  }
+}

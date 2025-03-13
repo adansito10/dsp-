@@ -1,0 +1,268 @@
+<!-- capacitacion.component.html -->
+<div  class="flex min-h-screen flex-col">
+    <main class="flex-1">
+      <!-- Hero Section -->
+      <section class="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-background to-muted relative overflow-hidden">
+        <div class="absolute inset-0 bg-grid-small-black -z-10"></div>
+        <div class="container px-4 md:px-6 relative z-10">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <span class="mb-2 inline-block px-2 py-1 text-sm font-medium border rounded-md">Capacitación Inteligente</span>
+            <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl">Capacitación Personalizada con IA</h1>
+            <p class="max-w-[700px] text-muted-foreground md:text-xl">
+              Nuestras soluciones de capacitación utilizan IA avanzada para adaptarse a las necesidades específicas de cada empleado
+            </p>
+            <div class="flex flex-col gap-2 min-[400px]:flex-row">
+              <button class="px-6 py-3 text-lg font-medium bg-primary text-primary-foreground rounded-md flex items-center gap-1">
+                Comenzar capacitación
+                <svg class="h-4 w-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 6l6 6-6 6" />
+                </svg>
+              </button>
+              <button [routerLink]="['/capacitacion']" [queryParamsHandling]="'preserve'" fragment="programas" class="btn btn-secondary">
+                Ver programas <span class="arrow">→</span>
+            </button>            </div>
+          </div>
+        </div>
+      </section>
+  
+
+      <section  class="w-full py-12 md:py-24 lg:py-32">
+        <div class="container px-4 md:px-6">
+          <div class="grid gap-10 lg:grid-cols-2">
+            <div class="flex flex-col justify-center space-y-4">
+              <span class="w-fit inline-block px-2 py-1 text-sm font-medium border rounded-md">Demostración Interactiva</span>
+              <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Experimenta el aprendizaje adaptativo</h2>
+              <p class="text-muted-foreground md:text-lg">
+                Nuestro sistema de IA analiza tu estilo de aprendizaje y adapta el contenido en tiempo real para maximizar la retención y comprensión.
+              </p>
+              <div class="space-y-4 mt-6">
+                <div class="flex items-start gap-3">
+                  <span class="material-icons h-6 w-6 text-primary flex-shrink-0 mt-0.5">check_circle</span>
+                  <div>
+                    <h3 class="font-medium">Evaluación de conocimientos previos</h3>
+                    <p class="text-sm text-muted-foreground">
+                      El sistema evalúa tus conocimientos actuales para personalizar el punto de partida.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="material-icons h-6 w-6 text-primary flex-shrink-0 mt-0.5">check_circle</span>
+                  <div>
+                    <h3 class="font-medium">Contenido adaptativo</h3>
+                    <p class="text-sm text-muted-foreground">
+                      Los materiales se ajustan automáticamente según tu progreso y estilo de aprendizaje.
+                    </p>
+                  </div>
+                </div>
+                <div class="flex items-start gap-3">
+                  <span class="material-icons h-6 w-6 text-primary flex-shrink-0 mt-0.5">check_circle</span>
+                  <div>
+                    <h3 class="font-medium">Retroalimentación en tiempo real</h3>
+                    <p class="text-sm text-muted-foreground">
+                      Recibe comentarios inmediatos sobre tu desempeño para mejorar continuamente.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button class="w-fit mt-4 px-4 py-2 bg-primary text-primary-foreground rounded-md flex items-center gap-2">
+                Probar demo
+                <span class="material-icons h-4 w-4">play_arrow</span>
+              </button>
+            </div>
+            <div class="flex items-center justify-center">
+              <div class="relative w-full max-w-[550px] rounded-lg border bg-background shadow-xl overflow-hidden chat-window">
+                <div class="flex items-center justify-between border-b px-4 py-2">
+                  <div class="flex items-center gap-2">
+                    <div class="h-3 w-3 rounded-full bg-red-500"></div>
+                    <div class="h-3 w-3 rounded-full bg-yellow-500"></div>
+                    <div class="h-3 w-3 rounded-full bg-green-500"></div>
+                  </div>
+                  <div class="text-sm font-medium">Asistente de Capacitación IA</div>
+                  <div></div>
+                </div>
+                <div class="p-4 h-[400px] overflow-y-auto">
+                  <div class="flex flex-col gap-4">
+                    <div class="flex items-start gap-3">
+                      <div class="h-8 w-8 rounded-full bg-primary-20 flex items-center justify-center">
+                        <span class="material-icons h-4 w-4 text-primary">memory</span>
+                      </div>
+                      <div class="rounded-lg bg-muted p-3 text-sm chat-message">
+                        <p>Bienvenido a tu capacitación personalizada sobre Mantenimiento Predictivo en la Industria 4.0.</p>
+                        <p class="mt-2">Primero, evaluaré tu nivel de conocimiento. ¿Podrías explicarme qué entiendes por mantenimiento predictivo?</p>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-3 self-end">
+                      <div class="rounded-lg bg-primary p-3 text-sm text-primary-foreground chat-message">
+                        El mantenimiento predictivo consiste en anticipar fallos en la maquinaria antes de que ocurran, mediante el análisis de datos y patrones.
+                      </div>
+                      <div class="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
+                        <span class="material-icons h-4 w-4 text-primary-foreground">group</span>
+                      </div>
+                    </div>
+                    <div id="/demo-interactiva" class="flex items-start gap-3">
+                      <div class="h-8 w-8 rounded-full bg-primary-20 flex items-center justify-center">
+                        <span class="material-icons h-4 w-4 text-primary">memory</span>
+                      </div>
+                      <div class="rounded-lg bg-muted p-3 text-sm chat-message">
+                        <p>¡Excelente respuesta! Tienes un buen entendimiento básico.</p>
+                        <p class="mt-2">
+                          Basado en tu respuesta, te recomendaré comenzar con el módulo intermedio sobre sensores IoT y análisis de datos para mantenimiento predictivo.
+                        </p>
+                        <div class="mt-3 space-y-2">
+                          <p class="font-medium">Módulos recomendados:</p>
+                          <div class="flex items-center gap-2">
+                            <div class="h-2 w-2 rounded-full bg-primary"></div>
+                            <span>Sensores IoT para monitoreo industrial</span>
+                          </div>
+                          <div class="flex items-center gap-2">
+                            <div class="h-2 w-2 rounded-full bg-primary"></div>
+                            <span>Análisis de datos para detección de patrones</span>
+                          </div>
+                          <div class="flex items-center gap-2">
+                            <div class="h-2 w-2 rounded-full bg-primary"></div>
+                            <span>Implementación de sistemas de alerta temprana</span>
+                          </div>
+                        </div>
+                        <div class="mt-3">
+                          <p>Tu progreso actual:</p>
+                          <div class="w-full bg-gray-200 rounded-full h-2.5 mt-2">
+                            <div class="bg-primary h-2.5 rounded-full progress-bar" style="width: 35%"></div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="flex items-start gap-3 self-end">
+                      <div class="rounded-lg bg-primary p-3 text-sm text-primary-foreground chat-message">
+                        Me interesa aprender más sobre los sensores IoT. ¿Qué tipos de sensores son más efectivos para monitorear maquinaria industrial?
+                      </div>
+                      <div class="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
+                        <span class="material-icons h-4 w-4 text-primary-foreground">group</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="border-t p-4">
+                  <div class="flex gap-2">
+                    <input type="text" placeholder="Escribe tu respuesta o pregunta..." class="flex-1 rounded-md border border-input bg-background px-3 py-2 text-sm" />
+                    <button class="px-4 py-2 bg-primary text-primary-foreground rounded-md text-sm">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Programas de Capacitación -->
+      <section class="w-full py-12 md:py-24 lg:py-32 bg-muted">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+            <span class="inline-block px-2 py-1 text-sm font-medium border rounded-md">Programas Especializados</span>
+            <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Programas de capacitación para Industria 4.0</h2>
+            <p class="max-w-[700px] text-muted-foreground md:text-lg">
+              Nuestros programas están diseñados específicamente para preparar a tu fuerza laboral para los desafíos de la transformación digital industrial
+            </p>
+          </div>
+          <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div *ngFor="let program " class="group hover:shadow-lg transition-all duration-300 border rounded-lg bg-background">
+              <div class="p-6">
+                <div class="p-2 bg-primary-10 rounded-lg w-fit mb-4">
+                  <span class="material-icons h-6 w-6 text-primary">{{ program.icon }}</span>
+                </div>
+                <h3 class="text-xl font-bold">{{ program.title }}</h3>
+                <p class="text-sm text-muted-foreground">Nivel: {{ program.level }}</p>
+              </div>
+              <div class="px-6 pb-6">
+                <p class="text-muted-foreground">{{ program.description }}</p>
+                <div class="mt-4 space-y-2">
+                  <div *ngFor="let feature of program.features" class="flex items-center gap-2">
+                    <span class="material-icons h-4 w-4 text-primary">check_circle</span>
+                    <span class="text-sm">{{ feature }}</span>
+                  </div>
+                </div>
+              </div>
+              <div class="p-6 pt-0">
+                <button class="w-full px-4 py-2 bg-primary text-primary-foreground rounded-md">Ver programa completo</button>
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center mt-10">
+            <button class="px-6 py-3 border rounded-md flex items-center gap-2">
+              Ver todos los programas
+              <span class="material-icons h-4 w-4">arrow_right</span>
+            </button>
+          </div>
+        </div>
+      </section>
+  
+      <!-- Metodología Section -->
+      <section class="w-full py-12 md:py-24 lg:py-32">
+        <div class="container px-4 md:px-6">
+          <div class="grid gap-10 lg:grid-cols-2">
+            <div class="flex flex-col justify-center space-y-4">
+              <span class="w-fit inline-block px-2 py-1 text-sm font-medium border rounded-md">Nuestra Metodología</span>
+              <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Aprendizaje adaptativo con IA</h2>
+              <p class="text-muted-foreground md:text-lg">
+                Nuestra metodología de capacitación combina lo mejor de la pedagogía moderna con la potencia de la inteligencia artificial para crear experiencias de aprendizaje personalizadas.
+              </p>
+              <div class="w-full mt-6">
+                <details class="mb-4">
+                  <summary class="font-medium cursor-pointer">Evaluación inicial personalizada</summary>
+                  <p class="mt-2 text-muted-foreground">
+                    Nuestro sistema de IA evalúa el nivel de conocimiento actual, estilo de aprendizaje y objetivos profesionales de cada empleado para crear un plan de capacitación personalizado.
+                  </p>
+                </details>
+                <details class="mb-4">
+                  <summary class="font-medium cursor-pointer">Contenido adaptativo en tiempo real</summary>
+                  <p class="mt-2 text-muted-foreground">
+                    El sistema ajusta continuamente el contenido, la dificultad y el ritmo de aprendizaje basándose en el desempeño y las respuestas del empleado durante la capacitación.
+                  </p>
+                </details>
+                <details class="mb-4">
+                  <summary class="font-medium cursor-pointer">Simulaciones y práctica inmersiva</summary>
+                  <p class="mt-2 text-muted-foreground">
+                    Utilizamos simulaciones realistas y entornos virtuales para permitir la práctica segura de habilidades complejas en un entorno controlado, con retroalimentación inmediata.
+                  </p>
+                </details>
+                <details class="mb-4">
+                  <summary class="font-medium cursor-pointer">Análisis de progreso y refuerzo</summary>
+                  <p class="mt-2 text-muted-foreground">
+                    El sistema analiza continuamente el progreso del empleado, identificando áreas de mejora y proporcionando refuerzo adicional en conceptos que requieren más atención.
+                  </p>
+                </details>
+                <details class="mb-4">
+                  <summary class="font-medium cursor-pointer">Certificación y validación de competencias</summary>
+                  <p class="mt-2 text-muted-foreground">
+                    Al completar los programas, los empleados reciben certificaciones verificables que validan sus nuevas competencias, con evaluaciones rigurosas supervisadas por IA.
+                  </p>
+                </details>
+              </div>
+            </div>
+            <div class="flex items-center justify-center">
+              <img src="/placeholder.svg?height=500&width=500" width="500" height="500" alt="Metodología de aprendizaje adaptativo" class="rounded-lg object-cover" />
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- CTA Section -->
+      <section class="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
+        <div class="container px-4 md:px-6">
+          <div class="flex flex-col items-center justify-center space-y-4 text-center">
+            <div class="space-y-2">
+              <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">Comienza a capacitar a tu equipo hoy</h2>
+              <p class="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+                Solicita una demostración personalizada para ver cómo nuestras soluciones de capacitación con IA pueden transformar tu fuerza laboral
+              </p>
+            </div>
+            <div class="flex flex-col gap-2 min-[400px]:flex-row">
+              <button class="px-6 py-3 bg-secondary text-secondary-foreground rounded-md">Solicitar demostración</button>
+              <button class="px-6 py-3 border border-primary-foreground text-primary-foreground rounded-md hover:bg-primary-foreground hover:text-primary">
+                Contactar ahora
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>

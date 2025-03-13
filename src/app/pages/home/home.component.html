@@ -1,0 +1,137 @@
+<!-- Sección 1: Revolución Laboral con IA -->
+<div class="container hero-section">
+    <div class="left-section">
+      <h1>Revolución laboral<br>con <span>IA</span></h1>
+      <p>Transforma tu fuerza laboral con soluciones de capacitación impulsadas por Inteligencia Artificial diseñadas específicamente para la Industria 4.0</p>
+      <div class="buttons">
+        <button routerLink="/capacitacion"   class="btn btn-primary">Comenzar ahora</button>
+        <button [routerLink]="['/capacitacion']" [queryParamsHandling]="'preserve'" fragment="demo-interactiva" class="btn btn-secondary">
+            Ver demostración <span class="arrow">→</span>
+        </button>
+        
+      </div>
+      <div class="trust-text">
+        <div class="dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+        Más de 2,000+ empresas confían en nosotros
+      </div>
+    </div>
+    <div class="right-section">
+        <div >
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1ksgWbqMoeHKa6v1kAFdyek0XwlSWWU5GhtoSm0YOvvSui5VhUvlst7bxaYCXK8Uekeo&usqp=CAU" alt="Demostración Interactiva" class="image-content">
+          <div ></div>
+        </div>
+      </div>
+  </div>
+  
+  <!-- Sección 2: Soluciones Innovadoras de Capacitación -->
+  <section class="solutions-section">
+    <div class="container">
+      <div class="section-header">
+        <a href="#" class="section-link">Características</a>
+        <h2>Soluciones innovadoras de capacitación</h2>
+        <p>Descubre cómo nuestras soluciones de IA transforman la capacitación laboral para la Industria 4.0</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div class="card-icon">🧠</div>
+          <h3>Asistente IA Personalizado</h3>
+          <p>Capacitación adaptativa con IA que aprende del usuario. Nuestro asistente de IA se adapta al ritmo y estilo de aprendizaje de cada empleado, ofreciendo una experiencia personalizada.</p>
+       </div>
+        <div class="card">
+          <div class="card-icon">🖥</div>
+          <h3>Simulaciones Inmersivas</h3>
+          <p>Entornos virtuales para la práctica segura. Simulaciones realistas que replican situaciones de trabajo para que los empleados practiquen en un entorno seguro.</p>
+        </div>
+        <div class="card">
+          <div class="card-icon">📊</div>
+          <h3>Análisis Avanzado</h3>
+          <p>Análisis detallado del desempeño para identificar áreas de mejora y optimizar el proceso de capacitación.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sección 3: Testimonios -->
+  <section class="testimonials-section">
+    <div class="container">
+      <div class="section-header">
+        <a href="#" class="section-link">Testimonios</a>
+        <h2>Lo que dicen nuestros clientes</h2>
+        <p>Descubre cómo nuestras soluciones han transformado la capacitación en empresas líderes</p>
+      </div>
+      <div class="cards">
+        <div class="card">
+          <div  class="testimonial-image" ></div>
+          <h3>María Rodríguez</h3>
+          <p class="testimonial-title">Directora de RH, TechMex</p>
+          <p class="testimonial-quote">"La plataforma de capacitación con IA ha reducido nuestro tiempo de onboarding en un 40% y ha mejorado significativamente la retención de conocimientos."</p>
+        </div>
+        <div class="card">
+          <div class="testimonial-image"></div>
+          <h3>Carlos Mendoza</h3>
+          <p class="testimonial-title">CEO, Industrias Futuro</p>
+          <p class="testimonial-quote">"Implementar esta solución nos ha permitido capacitar a nuestro personal para la transición a la Industria 4.0 de manera eficiente y efectiva."</p>
+        </div>
+        <div class="card">
+          <div class="testimonial-image"></div>
+          <h3>Laura Vázquez</h3>
+          <p class="testimonial-title">Gerente de Operaciones, AutoMex</p>
+          <p class="testimonial-quote">"El análisis predictivo de la plataforma nos ha permitido anticipar necesidades de capacitación y mejorar la productividad en un 25%."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sección 4: Demo Interactivo -->
+  <section class="demo-section">
+    <div class="container">
+      <div class="section-header">
+        <a href="#" class="section-link">Demo Interactivo</a>
+        <h2>Prueba nuestro asistente de IA</h2>
+        <p>Experimenta cómo funciona nuestra tecnología de capacitación con IA en tiempo real</p>
+      </div>
+      <div class="demo-content">
+        <div class="demo-left">
+          <div class="category-buttons">
+            <button class="category-btn active" data-category="industrial">Industrial</button>
+            <button class="category-btn" data-category="logistica">Logística</button>
+            <button class="category-btn" data-category="manufactura">Manufactura</button>
+          </div>
+          <div class="demo-description" id="demo-description">
+            <h3>Capacitación Industrial</h3>
+            <p>Aprende a operar maquinaria avanzada con asistencia de IA en tiempo real. Nuestro sistema detecta errores y proporciona retroalimentación inmediata.</p>
+          </div>
+          <button class="btn btn-primary demo-btn">Probar demo</button>
+        </div>
+        <div class="demo-chat">
+          <div class="chat-header">Asistente IA de Capacitación</div>
+          <div class="chat-messages">
+            <div class="chat-message assistant">Hola, soy tu asistente de capacitación para Industria 4.0. ¿En qué área te gustaría capacitarte hoy?</div>
+            <div class="chat-message user">Me gustaría aprender sobre mantenimiento predictivo en maquinaria industrial.</div>
+            <div class="chat-message assistant">Excelente elección. El mantenimiento predictivo es clave en la Industria 4.0. Comenzaremos con los fundamentos de sensores IoT y análisis de datos para detectar fallos antes de que ocurran.</div>
+          </div>
+          <div class="chat-input">
+            <input type="text" placeholder="Escribe tu pregunta aquí...">
+            <button class="chat-send">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Sección 5: Preparar para el Futuro -->
+  <section class="future-section">
+    <div class="container">
+      <h2>Prepara a tu empresa para el futuro</h2>
+      <p>Únete a las empresas líderes que ya están transformando su capacitación con IA</p>
+      <div class="future-buttons">
+       
+      </div>
+    </div>
+  </section>
+  
+  <app-footer></app-footer> <!-- Componente de footer, si está definido -->

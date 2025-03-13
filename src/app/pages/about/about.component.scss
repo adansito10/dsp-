@@ -1,0 +1,447 @@
+:host {
+  display: block;
+}
+
+.flex {
+  display: flex;
+}
+
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.md\:py-24 {
+  @media (min-width: 768px) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.lg\:py-32 {
+  @media (min-width: 1024px) {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+.bg-gradient-to-b {
+  background: linear-gradient(to bottom, var(--background), var(--muted));
+}
+
+.from-background {
+  --background: #ffffff;
+}
+
+.to-muted {
+  --muted: #f5f5f5;
+}
+
+.relative {
+  position: relative;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.inset-0 {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.bg-grid-small-black {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 20 20'%3E%3Cg opacity='0.2'%3E%3Cpath d='M0 0h20v20H0z' fill='none'/%3E%3Cpath d='M1 1h18v18H1z' fill='none' stroke='%23000' stroke-width='.5'/%3E%3C/g%3E%3C/svg%3E");
+}
+
+.-z-10 {
+  z-index: -10;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.md\:px-6 {
+  @media (min-width: 768px) {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.space-y-4 {
+  & > * + * {
+    margin-top: 1rem;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.tracking-tighter {
+  letter-spacing: -0.05em;
+}
+
+.sm\:text-5xl {
+  @media (min-width: 640px) {
+    font-size: 3rem;
+  }
+}
+
+.md\:text-6xl {
+  @media (min-width: 768px) {
+    font-size: 3.75rem;
+  }
+}
+
+.max-w-\[700px\] {
+  max-width: 700px;
+}
+
+.text-muted-foreground {
+  color: #666;
+}
+
+.md\:text-xl {
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+  }
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.lg\:grid-cols-2 {
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.md\:text-lg {
+  @media (min-width: 768px) {
+    font-size: 1.125rem;
+  }
+}
+
+.bg-muted {
+  background-color: #f5f5f5;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.sm\:text-4xl {
+  @media (min-width: 640px) {
+    font-size: 2.25rem;
+  }
+}
+
+.md\:text-5xl {
+  @media (min-width: 768px) {
+    font-size: 3rem;
+  }
+}
+
+.grid {
+  display: grid;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.md\:grid-cols-3 {
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+.group:hover .group-hover\:shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.duration-300 {
+  transition-duration: 300ms;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.bg-primary-10 {
+  background-color: rgba(25, 118, 210, 0.1);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.h-6 {
+  height: 1.5rem;
+}
+
+.w-6 {
+  width: 1.5rem;
+}
+
+.text-primary {
+  color: #1976d2;
+}
+
+.space-y-2 {
+  & > * + * {
+    margin-top: 0.5rem;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+.flex-shrink-0 {
+  flex-shrink: 0;
+}
+
+.md\:grid-cols-2 {
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+.lg\:grid-cols-4 {
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.relative {
+  position: relative;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.object-cover {
+  object-fit: cover;
+}
+
+.bg-gradient-to-t {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.from-black {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+}
+
+.opacity-0 {
+  opacity: 0;
+}
+
+.group-hover\:opacity-100:hover {
+  opacity: 1;
+}
+
+.transition-opacity {
+  transition: opacity 0.3s ease;
+}
+
+.items-end {
+  align-items: flex-end;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.pt-0 {
+  padding-top: 0;
+}
+
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
+.lg\:grid-cols-3 {
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+// Ajuste para las tarjetas: fondo blanco
+mat-card {
+  background-color: #ffffff !important; // Forzamos fondo blanco en todas las tarjetas
+  color: #000000; // Aseguramos que el texto sea legible (negro)
+}
+
+// Ajuste para la sección CTA: fondo negro
+.bg-primary {
+  background-color: #000000 !important; // Cambiamos el fondo a negro
+  color: #ffffff; // Texto blanco para contraste
+}
+
+.text-primary-foreground {
+  color: #ffffff;
+}
+
+.max-w-\[900px\] {
+  max-width: 900px;
+}
+
+.md\:text-xl\/relaxed {
+  @media (min-width: 768px) {
+    font-size: 1.25rem;
+    line-height: 1.625;
+  }
+}
+
+.lg\:text-base\/relaxed {
+  @media (min-width: 1024px) {
+    font-size: 1rem;
+    line-height: 1.625;
+  }
+}
+
+.xl\:text-xl\/relaxed {
+  @media (min-width: 1280px) {
+    font-size: 1.25rem;
+    line-height: 1.625;
+  }
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.min-\[400px\]\:flex-row {
+  @media (min-width: 400px) {
+    flex-direction: row;
+  }
+}
+
+.border-primary-foreground {
+  border-color: #ffffff;
+}
+
+.hover\:bg-primary-foreground:hover {
+  background-color: #ffffff;
+}
+
+.hover\:text-primary:hover {
+  color: #1976d2;
+}

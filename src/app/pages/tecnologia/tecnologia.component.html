@@ -1,0 +1,488 @@
+<div class="flex min-h-screen flex-col">
+  <main class="flex-1">
+    <!-- Hero Section -->
+    <section class="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-b from-background to-muted relative overflow-hidden">
+      <div class="absolute inset-0 bg-grid-small-black -z-10"></div>
+      <div class="container px-4 md:px-6 relative z-10">
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+          <mat-chip class="mb-2" color="primary" selected>Tecnología Avanzada</mat-chip>
+          <h1 class="text-3xl font-bold tracking-tighter sm:text-5xl md:text-6xl">
+            Inteligencia Artificial para la Industria 4.0
+          </h1>
+          <p class="max-w-[700px] text-muted-foreground md:text-xl">
+            Utilizamos las tecnologías más avanzadas de IA para crear experiencias de capacitación efectivas y personalizadas
+          </p>
+          <div class="flex flex-col gap-2 min-[400px]:flex-row">
+            <button mat-raised-button color="primary" class="gap-1">
+              Explorar tecnologías
+              <mat-icon>chevron_right</mat-icon>
+            </button>
+            <button mat-stroked-button color="primary">
+              Ver demostración técnica
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tecnologías Core Section -->
+    <section class="w-full py-12 md:py-24 lg:py-32">
+      <div class="container px-4 md:px-6">
+        <div class="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+          <mat-chip color="primary" selected>Núcleo Tecnológico</mat-chip>
+          <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            Tecnologías de IA que impulsan nuestra plataforma
+          </h2>
+          <p class="max-w-[700px] text-muted-foreground md:text-lg">
+            Nuestra plataforma integra múltiples tecnologías de IA para ofrecer una experiencia de capacitación completa y personalizada
+          </p>
+        </div>
+
+        <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <!-- Machine Learning Avanzado -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+            <div class="h-1 bg-gradient-to-r from-blue-400 to-blue-600"></div>
+            <mat-card-header>
+              <div class="p-2 bg-blue-100 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-6 text-blue-600">psychology</mat-icon>
+              </div>
+              <mat-card-title>Machine Learning Avanzado</mat-card-title>
+              <mat-card-subtitle>Algoritmos que aprenden y mejoran continuamente</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Nuestros algoritmos de Machine Learning analizan patrones de aprendizaje, identifican áreas de mejora y personalizan el contenido para cada usuario.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-blue-600">check_circle</mat-icon>
+                  <span class="text-sm">Aprendizaje supervisado y no supervisado</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-blue-600">check_circle</mat-icon>
+                  <span class="text-sm">Modelos de recomendación personalizados</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-blue-600">check_circle</mat-icon>
+                  <span class="text-sm">Análisis predictivo de desempeño</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+          <!-- Procesamiento de Lenguaje Natural -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+            <div class="h-1 bg-gradient-to-r from-green-400 to-green-600"></div>
+            <mat-card-header>
+              <div class="p-2 bg-green-100 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-6 text-green-600">chat</mat-icon>
+              </div>
+              <mat-card-title>Procesamiento de Lenguaje Natural</mat-card-title>
+              <mat-card-subtitle>Interacción natural con los sistemas</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Nuestros modelos de PLN permiten a los usuarios interactuar con el sistema de capacitación mediante conversaciones naturales y recibir respuestas contextuales.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-green-600">check_circle</mat-icon>
+                  <span class="text-sm">Comprensión de consultas complejas</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-green-600">check_circle</mat-icon>
+                  <span class="text-sm">Generación de respuestas contextuales</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-green-600">check_circle</mat-icon>
+                  <span class="text-sm">Análisis de sentimiento y comprensión</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+          <!-- Redes Neuronales Profundas -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+            <div class="h-1 bg-gradient-to-r from-purple-400 to-purple-600"></div>
+            <mat-card-header>
+              <div class="p-2 bg-purple-100 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-6 text-purple-600">layers</mat-icon>
+              </div>
+              <mat-card-title>Redes Neuronales Profundas</mat-card-title>
+              <mat-card-subtitle>Modelos complejos para análisis avanzado</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Utilizamos redes neuronales profundas para analizar datos complejos, reconocer patrones y proporcionar insights avanzados sobre el proceso de aprendizaje.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-purple-600">check_circle</mat-icon>
+                  <span class="text-sm">Reconocimiento de patrones complejos</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-purple-600">check_circle</mat-icon>
+                  <span class="text-sm">Procesamiento de datos multimodales</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-purple-600">check_circle</mat-icon>
+                  <span class="text-sm">Aprendizaje por refuerzo</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+          <!-- Análisis de Big Data -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+            <div class="h-1 bg-gradient-to-r from-orange-400 to-orange-600"></div>
+            <mat-card-header>
+              <div class="p-2 bg-orange-100 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-6 text-orange-600">database</mat-icon>
+              </div>
+              <mat-card-title>Análisis de Big Data</mat-card-title>
+              <mat-card-subtitle>Procesamiento de grandes volúmenes de datos</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Nuestras herramientas de análisis de Big Data procesan grandes volúmenes de información para identificar tendencias y optimizar los procesos de capacitación.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-orange-600">check_circle</mat-icon>
+                  <span class="text-sm">Procesamiento en tiempo real</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-orange-600">check_circle</mat-icon>
+                  <span class="text-sm">Análisis predictivo y prescriptivo</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-orange-600">check_circle</mat-icon>
+                  <span class="text-sm">Visualización avanzada de datos</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+          <!-- Realidad Virtual y Aumentada -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+            <div class="h-1 bg-gradient-to-r from-red-400 to-red-600"></div>
+            <mat-card-header>
+              <div class="p-2 bg-red-100 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-6 text-red-600">vrpano</mat-icon>
+              </div>
+              <mat-card-title>Realidad Virtual y Aumentada</mat-card-title>
+              <mat-card-subtitle>Experiencias inmersivas de aprendizaje</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Integramos tecnologías de RV y RA para crear experiencias inmersivas que permiten a los usuarios practicar habilidades en entornos virtuales seguros.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-red-600">check_circle</mat-icon>
+                  <span class="text-sm">Simulaciones de entornos industriales</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-red-600">check_circle</mat-icon>
+                  <span class="text-sm">Entrenamiento práctico sin riesgos</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-red-600">check_circle</mat-icon>
+                  <span class="text-sm">Interacción con equipos virtuales</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+          <!-- Internet de las Cosas (IoT) -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300 overflow-hidden">
+            <div class="h-1 bg-gradient-to-r from-teal-400 to-teal-600"></div>
+            <mat-card-header>
+              <div class="p-2 bg-teal-100 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-6 text-teal-600">sensors</mat-icon>
+              </div>
+              <mat-card-title>Internet de las Cosas (IoT)</mat-card-title>
+              <mat-card-subtitle>Conectividad con sistemas industriales</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Nuestra plataforma se integra con dispositivos IoT para recopilar datos en tiempo real y proporcionar capacitación contextual en entornos industriales.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-teal-600">check_circle</mat-icon>
+                  <span class="text-sm">Integración con sensores industriales</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-teal-600">check_circle</mat-icon>
+                  <span class="text-sm">Monitoreo en tiempo real</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-teal-600">check_circle</mat-icon>
+                  <span class="text-sm">Capacitación contextual basada en datos</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+    </section>
+
+    <!-- Arquitectura Tecnológica -->
+    <section class="w-full py-12 md:py-24 lg:py-32 bg-muted">
+      <div class="container px-4 md:px-6">
+        <div class="grid gap-10 lg:grid-cols-2">
+          <div class="flex flex-col justify-center space-y-4">
+            <mat-chip color="primary" selected>Arquitectura</mat-chip>
+            <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+              Arquitectura tecnológica avanzada
+            </h2>
+            <p class="text-muted-foreground md:text-lg">
+              Nuestra plataforma está construida sobre una arquitectura modular y escalable que integra múltiples tecnologías de IA para ofrecer una experiencia de capacitación completa.
+            </p>
+
+            <mat-tab-group class="w-full mt-6">
+              <mat-tab label="Capa de Usuario">
+                <div class="space-y-4 mt-4">
+                  <div class="rounded-lg border p-4">
+                    <h3 class="text-lg font-medium">Interfaz Adaptativa</h3>
+                    <p class="text-muted-foreground mt-2">
+                      Nuestra interfaz de usuario se adapta automáticamente a las preferencias y necesidades de cada usuario, ofreciendo una experiencia personalizada y accesible.
+                    </p>
+                    <div class="mt-4 space-y-2">
+                      <div class="flex items-center gap-2">
+                        <mat-icon class="h-4 w-4 text-primary">bolt</mat-icon>
+                        <span class="text-sm">Diseño responsivo para todos los dispositivos</span>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <mat-icon class="h-4 w-4 text-primary">bolt</mat-icon>
+                        <span class="text-sm">Personalización basada en preferencias</span>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <mat-icon class="h-4 w-4 text-primary">bolt</mat-icon>
+                        <span class="text-sm">Accesibilidad integrada</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+              <mat-tab label="Capa de IA">
+                <div class="space-y-4 mt-4">
+                  <div class="rounded-lg border p-4">
+                    <h3 class="text-lg font-medium">Motor de IA Avanzado</h3>
+                    <p class="text-muted-foreground mt-2">
+                      El núcleo de nuestra plataforma es un motor de IA que integra múltiples algoritmos y modelos para proporcionar una experiencia de aprendizaje personalizada.
+                    </p>
+                    <div class="mt-4 space-y-2">
+                      <div class="flex items-center gap-2">
+                        <mat-icon class="h-4 w-4 text-primary">bolt</mat-icon>
+                        <span class="text-sm">Procesamiento distribuido</span>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <mat-icon class="h-4 w-4 text-primary">bolt</mat-icon>
+                        <span class="text-sm">Integración de múltiples modelos de IA</span>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <mat-icon class="h-4 w-4 text-primary">bolt</mat-icon>
+                        <span class="text-sm">Optimización continua mediante aprendizaje</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+              <mat-tab label="Capa de Datos">
+                <div class="space-y-4 mt-4">
+                  <div class="rounded-lg border p-4">
+                    <h3 class="text-lg font-medium">Gestión de Datos Inteligente</h3>
+                    <p class="text-muted-foreground mt-2">
+                      Nuestra plataforma utiliza una arquitectura de datos avanzada que permite el procesamiento y análisis de grandes volúmenes de información en tiempo real.
+                    </p>
+                    <div class="mt-4 space-y-2">
+                      <div class="flex items-center gap-2">
+                        <mat-icon class="h-4 w-4 text-primary">bolt</mat-icon>
+                        <span class="text-sm">Almacenamiento distribuido y seguro</span>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <mat-icon class="h-4 w-4 text-primary">bolt</mat-icon>
+                        <span class="text-sm">Procesamiento en tiempo real</span>
+                      </div>
+                      <div class="flex items-center gap-2">
+                        <mat-icon class="h-4 w-4 text-primary">bolt</mat-icon>
+                        <span class="text-sm">Análisis predictivo y prescriptivo</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </mat-tab>
+            </mat-tab-group>
+          </div>
+
+          <div class="flex items-center justify-center">
+            <img src="/assets/placeholder.svg" width="500" height="500" alt="Arquitectura tecnológica" class="rounded-lg object-cover">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Integración con Industria 4.0 -->
+    <section class="w-full py-12 md:py-24 lg:py-32">
+      <div class="container px-4 md:px-6">
+        <div class="flex flex-col items-center justify-center space-y-4 text-center mb-10">
+          <mat-chip color="primary" selected>Integración Industrial</mat-chip>
+          <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            Integración con sistemas de Industria 4.0
+          </h2>
+          <p class="max-w-[700px] text-muted-foreground md:text-lg">
+            Nuestra plataforma se integra perfectamente con los sistemas y tecnologías de la Industria 4.0 para proporcionar capacitación contextual y relevante
+          </p>
+        </div>
+
+        <div class="grid gap-8 md:grid-cols-2">
+          <!-- Integración con sistemas SCADA -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300">
+            <mat-card-header>
+              <div class="p-2 bg-primary-10 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-6 text-primary">sensors</mat-icon>
+              </div>
+              <mat-card-title>Integración con sistemas SCADA</mat-card-title>
+              <mat-card-subtitle>Capacitación contextual en sistemas de control industrial</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Nuestra plataforma se integra con sistemas SCADA para proporcionar capacitación contextual basada en datos reales de operación industrial.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Monitoreo en tiempo real</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Simulaciones basadas en datos históricos</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Capacitación para situaciones de emergencia</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+          <!-- Integración con ERP y MES -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300">
+            <mat-card-header>
+              <div class="p-2 bg-primary-10 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-6 text-primary">database</mat-icon>
+              </div>
+              <mat-card-title>Integración con ERP y MES</mat-card-title>
+              <mat-card-subtitle>Capacitación alineada con procesos de negocio</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Conectamos nuestra plataforma con sistemas ERP y MES para alinear la capacitación con los procesos de negocio y producción.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Capacitación basada en roles específicos</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Simulación de procesos de negocio</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Métricas de impacto en la producción</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+          <!-- Integración con sistemas IoT -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300">
+            <mat-card-header>
+              <div class="p-2 bg-primary-10 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-6 text-primary">sensors</mat-icon>
+              </div>
+              <mat-card-title>Integración con sistemas IoT</mat-card-title>
+              <mat-card-subtitle>Capacitación con datos de sensores en tiempo real</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Nuestra plataforma se conecta con redes de sensores IoT para proporcionar capacitación basada en datos reales del entorno industrial.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Monitoreo de equipos en tiempo real</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Alertas y capacitación preventiva</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Análisis predictivo de mantenimiento</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+
+          <!-- Integración con sistemas de gestión de calidad -->
+          <mat-card class="group hover:shadow-lg transition-all duration-300">
+            <mat-card-header>
+              <div class="p-2 bg-primary-10 rounded-lg w-fit mb-4">
+                <mat-icon class="h-6 w-4 text-primary">build</mat-icon>
+              </div>
+              <mat-card-title>Integración con sistemas de gestión de calidad</mat-card-title>
+              <mat-card-subtitle>Capacitación enfocada en calidad y mejora continua</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p class="text-muted-foreground">
+                Conectamos nuestra plataforma con sistemas de gestión de calidad para alinear la capacitación con los estándares y procesos de mejora continua.
+              </p>
+              <div class="mt-4 space-y-2">
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Capacitación en estándares ISO</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Simulación de auditorías de calidad</span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <mat-icon class="h-4 w-4 text-primary">check_circle</mat-icon>
+                  <span class="text-sm">Análisis de causa raíz</span>
+                </div>
+              </div>
+            </mat-card-content>
+          </mat-card>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="w-full py-12 md:py-24 lg:py-32 bg-primary text-primary-foreground">
+      <div class="container px-4 md:px-6">
+        <div class="flex flex-col items-center justify-center space-y-4 text-center">
+          <div class="space-y-2">
+            <h2 class="text-3xl font-bold tracking-tighter sm:text-5xl">
+              Descubre el poder de nuestra tecnología
+            </h2>
+            <p class="max-w-[900px] md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
+              Solicita una demostración técnica para ver cómo nuestra plataforma puede integrarse con tus sistemas industriales
+            </p>
+          </div>
+          <div class="flex flex-col gap-2 min-[400px]:flex-row">
+            <button mat-raised-button color="accent">
+              Solicitar demo técnica
+            </button>
+            <button mat-stroked-button class="border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
+              Hablar con un experto
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</div>

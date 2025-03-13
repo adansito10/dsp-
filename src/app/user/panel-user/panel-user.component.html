@@ -1,0 +1,54 @@
+<p>panel-user works!</p>
+<div class="user-container">
+    <!-- Menú lateral -->
+    <aside class="sidebar">
+      <h2>Panel de Usuario</h2>
+
+      <button class="logout-btn" (click)="logout()">Cerrar Sesión</button>
+
+      <ul>
+        <li><a routerLink="/user/resumen" routerLinkActive="active">📋 Resumen</a></li>
+        <li><a routerLink="/user/courses" routerLinkActive="active">📚 Mis cursos</a></li>
+        <li><a routerLink="/user/calendar" routerLinkActive="active">📅 Calendario</a></li>
+        <li><a routerLink="/user/certificates" routerLinkActive="active">🎓 Certificados</a></li>
+        <li><a routerLink="/user/progress" routerLinkActive="active">📈 Mi progreso</a></li>
+      </ul>
+    </aside>
+  
+    <!-- Contenido principal -->
+    <main class="main-content">
+      <div class="header">
+        <h1>Bienvenido, Juan Diaz</h1>
+        <p>Continúa tu capacitación donde la dejaste. Tienes 2 cursos en progreso.</p>
+        <button class="continue-btn">Continuar aprendiendo ></button>
+      </div>
+  
+      <!-- Tarjetas de métricas -->
+      <div class="metrics">
+        <div class="card">
+          <h3>Cursos completados</h3>
+          <p class="value">3</p>
+          <p class="change">+1 en último mes</p>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="card">
+          <h3>Horas de aprendizaje</h3>
+          <p class="value">24.5</p>
+          <p class="change">+5.5 en último mes</p>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+        <div class="card">
+          <h3>Certificados obtenidos</h3>
+          <p class="value">2</p>
+          <p class="change">+1 en último mes</p>
+          <div class="progress-bar"><div class="progress"></div></div>
+        </div>
+      </div>
+  
+      <!-- Cursos en progreso -->
+      <div class="progress-section">
+        <h3>Cursos en progreso</h3>
+        <!-- Aquí podrías agregar una lista dinámica de cursos -->
+      </div>
+    </main>
+  </div>

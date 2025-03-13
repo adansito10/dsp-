@@ -1,0 +1,29 @@
+<div class="admin-container">
+    <!-- Menú lateral -->
+    <aside class="sidebar">
+      <h2>Panel de Administración</h2>
+      <ul>
+        <button class="logout-btn" (click)="logout()">Cerrar Sesión</button>
+
+        <li><a routerLink="/admin/dashboard" routerLinkActive="active">📊 Dashboard</a></li>
+        <li><a routerLink="/admin/users" routerLinkActive="active">👤 Usuarios</a></li>
+        <li><a routerLink="/admin/courses" routerLinkActive="active">📚 Cursos</a></li>
+        <li><a routerLink="/admin/analytics" routerLinkActive="active">📈 Analíticas</a></li>
+        <li><a routerLink="/admin/reports" routerLinkActive="active">📋 Reportes</a></li>
+      </ul>
+    </aside>
+  
+    <!-- Contenido principal -->
+    <main class="main-content">
+      <div class="header">
+        <h1>Panel de Administración</h1>
+        <div class="actions">
+          <button class="export-btn">Exportar datos</button>
+          <button class="new-course-btn">+ Nuevo curso</button>
+        </div>
+      </div>
+  
+      <!-- Tarjetas de métricas -->
+      
+    </main>
+  </div>
